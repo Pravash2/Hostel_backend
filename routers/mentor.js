@@ -8,7 +8,7 @@ const jwt = require("jsonwebtoken");
 const passport = require("passport");
 
 
-//importing the Models of Mentor , Pass and Keys
+//importing the Models of Mentor , Pass  and Keys
 const Mentor = require("../models/mentor");
 const Pass = require("../models/pass");
 const keys = require("../config/keys");
